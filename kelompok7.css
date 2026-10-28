@@ -11,3 +11,35 @@
     align-items: center;
     box-sizing: border-box;
 }
+
+.nav {
+    display: flex;
+    gap: 900px;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+.nav-menu {
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 10px;
+    color: black;
+    /* -webkit-text-stroke: 1px #A3AD94; */
+}
+
+.bg-1 {
+    background-color: chocolate;
+}
+
+.hero {
+    display: flex;
+}
+/* habib css */
+/* akhir habib css */
+
+/* arafat css */
+/* akhir arafat css */
