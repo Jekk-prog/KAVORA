@@ -1,5 +1,6 @@
-.test{
-    color: blue;
+body {
+    margin: 0;
+    background-color: #F6F4EE;
 }
 
 .landing-full {
@@ -12,14 +13,24 @@
     box-sizing: border-box;
 }
 
+/* .landing-full.about {
+    height: auto;
+    min-height: 100vh;
+    padding: 20px 12px;
+    align-items: stretch;
+    justify-content: flex-start;
+} */
+
 .nav {
     display: flex;
-    gap: 900px;
+    gap: 700px;
     justify-content: center;
     align-items: center;
     position: sticky;
     top: 0;
     overflow: hidden;
+    background-color: #A3AD94;
+    z-index: 999;
 }
 
 .nav-menu {
@@ -27,17 +38,91 @@
     text-decoration: none;
     text-align: center;
     padding-left: 10px;
-    color: black;
+    color: #F6F4EE;
     /* -webkit-text-stroke: 1px #A3AD94; */
 }
 
 .bg-1 {
-    background-color: chocolate;
+    background-color: #455238;
+}
+
+.text-1{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.justify-text{
+    text-align: justify;
+}
+
+.color-1 {
+    color: #F6F4EE;
+}
+
+.color-2 {
+    color: #455238;
+}
+
+.font-1 {
+    font-family: 'Inter';
+}
+
+.rounded {
+    border-radius: 20px;
+}
+
+.flex {
+    display: flex;
 }
 
 .hero {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 40px;
 }
+.hero-text {
+    font-size: 20px;
+}
+
+.about {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.about-text {
+    gap: 50px;
+}
+
+.button-1 {
+    background-color: white;
+    color: #455238;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+
+.text-didalam {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container {
+    position: relative;
+    /* width: 100%;
+    max-width: 500px; */
+}
+
 /* habib css */
 /* akhir habib css */
 
