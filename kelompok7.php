@@ -6,21 +6,21 @@
     <title>Kelompok7</title>
     <link rel="preconnect" href="https://googleapis.com">
     <link rel="preconnect" href="https://gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="kelompok7.css">
 </head>
 <body>
-    <div class="nav color-1">
+    <div class="nav-kelompok7 color-1">
         <div class="logo">
             <h2>KAVORA</h2>
         </div>
-        <div class="">
+        <div class="kelompok7">
             <a href="#home" class="nav-menu">Home</a>
             <a href="#about" class="nav-menu">About</a>
+            <a href="#produk" class="nav-menu">Produk</a>
             <a href="#review" class="nav-menu">Review</a>
             <a href="#location" class="nav-menu">Location</a>
             <a href="#contact" class="nav-menu">Contact</a>
-            <!-- <a href="" class="nav-menu">Menu</a> -->
         </div>
     </div>
     <div class="landing-full bg-0" id="home">
@@ -29,14 +29,15 @@
                 <h1>NO.1 COFFEE BRAND IN ASIA</h1>
                 <p>KAVORA : Nyalakan Harimu, Teguk Inspirasimu</p>
                 <p>Hidup bergerak cepat, dan harimu butuh dorongan yang tepat. KAVORA hadir untuk<br> menemani setiap langkah kreatif dan ambisiusmu dari pagi yang sibuk hingga malam penuh ide.</p>
-                <button class="button-1">haloha</button>
-                <button>haloha2</button>
+                <a href="" class="button-1">Produk Kami</a>
+                <a href="" class="button-1">Lokasi</a>
             </div>
             <img src="gambar/Kavora1 4per3.png" alt="GAMBAR BRAND" width="700" height="450">
         </div>
     </div>
 
     <div class="landing-full about" id="about">
+        <!-- bagian nizhar -->
         <div class="container color-2 font-1">
             <h1 class="text-1">ABOUT KAVORA</h1>
             <img src="gambar/Kavora2.png" alt="gambar" width="1120" height="400" class="rounded">
@@ -49,7 +50,12 @@
         </div>
     </div>
 
-    <div class="landing-full review">
+    <div class="landing-full produk" id="produk">
+        <!-- bagian nizhar -->
+        <h1>NIZHAR</h1>
+    </div>
+
+    <div class="landing-full review" id="review">
         <!-- bagian arafat -->
         <h1>ARAFAT</h1>
     </div>
@@ -66,9 +72,23 @@
          </div>
     </div>
 
-        <div class="landing-full contact">
+        <div class="landing-full contact" id="contact">
         <!-- bagian habib -->
          <h1>HABIB</h1>
+         <form action="" method="post">
+             <label for="">Nama</label>
+             <input type="text" name="username">
+             <label for="">Email</label>
+             <input type="email" name="email">
+             <label for="">No.Telephone</label>
+             <input type="tel" name="nomor">
+             <label for="">Message</label>
+             <input type="textarea">
+             <button type="submit">Submit</button>
+         </form>
+    </div>
+
+    <div class="footer-kelompok7">
     </div>
 </body>
 </html>
