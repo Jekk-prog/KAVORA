@@ -57,7 +57,8 @@
 
     <div class="landing-full review" id="review">
         <!-- bagian arafat -->
-        <h1>ARAFAT</h1>
+    <h1>oke</h1>
+    <h1>okw</h1>
     </div>
 
         <div class="landing-full location" id="location">
